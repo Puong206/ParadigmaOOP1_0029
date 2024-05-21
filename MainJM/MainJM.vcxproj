@@ -128,7 +128,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Composition.cpp" />
     <ClCompile Include="mainJM.cpp" />
   </ItemGroup>
   <ItemGroup>
