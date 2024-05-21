@@ -24,6 +24,7 @@
     <ProjectGuid>{cde28bab-3baa-47bf-be16-c8a56967fc40}</ProjectGuid>
     <RootNamespace>MainJM</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Composition</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,7 +128,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MainJM.cpp" />
+    <ClCompile Include="Composition.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jantung.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
