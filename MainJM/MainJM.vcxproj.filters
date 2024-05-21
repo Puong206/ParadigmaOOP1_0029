@@ -18,6 +18,9 @@
     <ClCompile Include="Composition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mainJM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="jantung.h">
