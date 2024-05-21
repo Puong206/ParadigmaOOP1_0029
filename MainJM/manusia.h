@@ -1,5 +1,8 @@
 #ifndef MANUSIA_H
 #define MANUSIA_H
+#include <string>
+#include "jantung.h"
+#include <iostream>
 using namespace std;
 
 class manusia {
